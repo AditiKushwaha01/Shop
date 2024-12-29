@@ -11,6 +11,7 @@ import Account from './Components/Account/Account';
 import Settings from './Components/Settings/Settings';
 import Product from './Components/Product/Product';
 import Kart from './Components/Kart/Kart';
+import VideoSection from './Components/VideoSection/VideoSection';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/products" element={<Product />} />
         <Route path="/kart" element={<Kart />} />
       </Routes>
+      <VideoSection/>
     </Router>
   );
 }
